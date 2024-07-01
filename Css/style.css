@@ -1,0 +1,82 @@
+
+
+/* slik slider css */
+
+.slick-list{
+    padding-left: 0 !important;
+}
+.slick-center{
+    position: relative;
+}
+.slick-center::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #00000077;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+.slick-center::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(/src/Images/instagram.png) no-repeat center;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* arrow  */
+
+.photoSlider{
+    position: relative;
+}
+
+.photoSlider .left{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    height: 40px;
+    width: 40px;
+    color: rgb(12, 11, 10);
+    background-color: #DCCA87;
+    border-radius: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    transition: 0.4s;
+}
+.photoSlider .left:hover{
+    border: 1px solid #DCCA87;
+    background: transparent;
+    color: #ffffff;
+}
+.photoSlider .right{
+    position: absolute;
+    right: 72px;
+    top: 50%;
+    transform: translate(50% , -50%);
+    height: 40px;
+    width: 40px;
+    color: rgb(12, 11, 10);
+    background-color: #DCCA87;
+    border-radius: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+}
+.photoSlider .right:hover{
+    border: 1px solid #DCCA87;
+    background: transparent;
+    color: #ffffff;
+}
+
+/* arrow  */
+
+/* slik slider css */

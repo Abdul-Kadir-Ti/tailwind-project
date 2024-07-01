@@ -1,0 +1,884 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind css Project</title>
+  <!-- ================google fonts================ -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- ================google fonts================ -->
+  <!-- ================font awesome cdn link================= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ================font awesome cdn link================= -->
+  <!-- =================slick slider css link================ -->
+  <link rel="stylesheet" href="Css/slick.css">
+  <!-- =================slick slider css link================ -->
+  <link href="./output.css" rel="stylesheet">
+  <!-- =================Custom css file=================== -->
+  <link rel="stylesheet" href="Css/style.css">
+   <!-- =================Custom css file=================== -->
+</head>
+<body class="bg-bodyBg -z-50">
+ <!-- ==================================Navber_Start=================================== -->
+ <nav class="bg-black">
+  <div class="max-w-[1920px] mx-auto py-7 bg-black flex justify-between items-center">
+    <div class="logo">
+      <a href="#">
+        <img class="mx-[120px]" src="Images/navbar logo.png" alt="navber_logo">
+      </a>
+    </div>
+    <ul class="flex gap-8 font-common">
+      <li>
+        <a class="text-[#DCCA87]" href="#">Home</a>
+      </li>
+      <li>
+        <a class="text-white hover:text-[#DCCA87]" href="#">Pages</a>
+      </li>
+      <li>
+        <a class="text-white hover:text-[#DCCA87]" href="#">Contact Us   </a>
+      </li>
+      <li>
+        <a class="text-white hover:text-[#DCCA87]" href="#">Blog</a>
+      </li>
+      <li>
+        <a class="text-white hover:text-[#DCCA87]" href="#">Landing</a>
+      </li>
+    </ul>
+    <div class="btn mx-[120px] flex items-center">
+      <a class="text-white font-common font-semibold hover:text-[#DCCA87]" href="#">Log in / registration</a>
+      <div>
+        <img class="px-[50px] -my-5" src="Images/Vector 5.png" alt="">
+      </div>
+      <a class="text-white font-common font-semibold hover:text-[#DCCA87]" href="#">Book Table</a>
+    </div>
+  </div>
+ </nav>
+ <!-- ==================================Navber_End=================================== -->
+ <!-- ==================================Bnner_Part Start============================== -->
+ <section class="bg-black">
+  <div class="max-w-[1680px] h-[828px] mx-auto relative">
+    <div class="max-w-[1300px] pb-16 h-[736px] mx-auto flex justify-between pt-12">
+      <div class="flex items-center">
+        <div>
+          <h1 class="font-sub text-[#ffff] text-[23px] font-bold leading-[130%]">Chase the new Flavour</h1>
+          <img class="mt-2" src="Images/Vector.png" alt="">
+          <h2 class="font-sub capitalize text-[#DCCA87] mb-8 mt-2 font-bold text-[90px] max-w-[453px]">The key to Fine dining</h2>
+          <p class="font-common leading-[175%] text-[#aaaaaa] max-w-[453px] mb-8">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
+          <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">Explore Menu</button>
+        </div>
+      </div>
+      <div class="w-[667px] h-[736px] relative">
+        <div class="absolute content-[''] w-[435px] h-[435px] bg-[#DCCA87] top-0 right-0"></div>
+        <div class="absolute content-[''] w-[435px] h-[435px] bg-[#DCCA87] bottom-0 left-0"></div>
+
+        <div class="bnnerSlider w-[619px] h-[688px] top-[24px] left-[24px]">
+          <div><img src="Images/home page 03.jpg" alt=""></div>
+          <div><img src="Images/home page img.jpg" alt=""></div>
+          <div><img src="Images/home page img1.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-0 right-0">
+      <img src="Images/Scroll (1).png" alt="scroll">
+    </div>
+    <p class="absolute bottom-0 left-[50%] translate-x-[-50%] text-[#F5EFDB] font-semibold font-Upright">01 - 02 03 04 </p>
+    <img class="absolute left-0 top-[336px]" src="Images/Hashtag.png" alt="Hashtag">
+  </div>
+ </section>
+ <!-- ==================================Bnner_Part End============================== -->
+ <!-- ===========================About & histoty_part Start========================== -->
+ <section class=" bg-Bg relative w-full bg-no-repeat bg-cover bg-center after:content-[''] after:absolute after:bg-[#04040460] after:w-full after:h-full after:top-0 after:z-[-2] z-10">
+  <!-- container -->
+  <div class="relative max-w-[1300px] mx-auto flex justify-between items-center py-32">
+    <!-- background Image -->
+    <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-[-1]">
+      <img src="Images/G.png" alt="G.png">
+    </div>
+    <!-- background Image -->
+    <!-- left -->
+    <div class=" text-end">
+      <h2 class="font-semibold text-[64px] text-[#DCCA87] font-sub leading-[130%] ">About Us</h2>
+      <div class="flex justify-end">
+        <img class="" src="Images/Vector 2.png" alt="Vector 2">
+      </div>
+      <p class="font-common text-[#AAAAAA] max-w-[523px] leading-[175%] py-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+      <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">Know More</button>
+    </div>
+    <!-- left -->
+    <!-- image -->
+      <img src="Images/knife.png" alt="knife">
+    <!-- image -->
+    <!-- right -->
+    <div>
+      <h2  class="font-semibold text-[64px] text-[#DCCA87] font-sub leading-[130%] ">Our History</h2>
+      <img src="Images/Vector.png" alt="">
+      <p class="font-common text-[#AAAAAA] max-w-[523px] leading-[175%] py-8">Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
+      <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">Know More</button>
+    </div>
+    <!-- right -->
+      <!-- logo animation -->
+  <div class="round_animation w-[146px] absolute top-full left-[100%] translate-x-[50px] translate-y-[-23px] z-50">
+    <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+</div>
+  <!-- logo animation -->
+  </div>
+  <!-- container -->
+ </section>
+ <!-- ===========================About & histoty_part End========================== -->
+ <!-- ==============================Table_book_part start=========================== -->
+ <section class="bg-black pt-[152px] pb-[184px]">
+  <!-- cintainer -->
+  <div class="max-w-[1364px] mx-auto text-center border-[1px] border-[rgba(220,202,135,0.2)] py-12">
+    <h6 class="text-[23px] font-bold font-sub text-[#FFFFFF] leading-[130%]">Reservations</h6>
+    <!-- icon -->
+    <div class="flex justify-center py-2">
+      <img src="Images/Vector.png" alt="">
+    </div>
+    <!-- icon -->
+    <h1 class="text-[#DCCA87] font-sub text-[64px] font-semibold">Book A Table</h1>
+    <!-- dropdown box -->
+    <div class="flex justify-around py-[64px]">
+      <select class="w-[412px] py-4 px-4 text-[#AAAAAA] bg-transparent border-[1px] border-[hsla(47,49%,66%,0) text-[16px]">
+        <option class="text-white" value="1 Parson">1 Parson</option>
+        <option class="text-white" value="2 Parson">2 Parson</option>
+        <option class="text-white" value="3 Parson">3 Parson</option>
+        <option class="text-white" value="4 Parson">4 Parson</option>
+      </select>
+      <select class="w-[412px] py-4 px-4 text-[#AAAAAA] bg-transparent border-[1px] border-[hsla(47,49%,66%,0) text-[16px]">
+        <option value="12/05/2021">12/05/2021</option>
+        <option value="13/05/2021">13/05/2021</option>
+        <option value="14/05/2021">14/05/2021</option>
+        <option value="15/05/2021">15/05/2021</option>
+      </select>
+      <select class="w-[412px] py-4 px-4 text-[#AAAAAA] bg-transparent border-[1px] border-[hsla(47,49%,66%,0) text-[16px]">
+        <option value="11 AM">11 AM</option>
+        <option value="12 AM">12 AM</option>
+        <option value="1 PM">1 PM</option>
+        <option value="2 PM">2 PM</option>
+      </select>
+    </div>
+    <!-- dropdown box -->
+    <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">Book Now</button>
+  </div>
+  <!-- cintainer -->
+ </section>
+ <!-- ==============================Table_book_part End============================= -->
+ <!-- ==============================Bar menu slider start=========================== -->
+ <section class="bg-black pt-[184]">
+  <!-- container start -->
+    <div class="max-w-[1920px] mx-auto relative">
+      <!-- slider start -->
+      <div class="menuSlider">
+        <!-- fast_part start -->
+        <div class="relative w-full bg-no-repeat bg-cover bg-center after:absolute after:content-[''] after:w-full after:h-full after:bg-[#00000062] after:top-0 after:left-0 after:z[-110] z-50"style="background-image: url(./Images/bar\ menu\ \(4\).jpg);">
+          <!-- text  -->
+          <div class="py-[262px] pl-[145px]">
+          <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub">Bar Menu</h3>
+          <h3 class="font-semibold text-white text-[64px] py-16 leading-[130%] font-sub">Food Menu</h3>
+          <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub">Desserts Menu</h3>
+          </div>
+          <!-- text  -->
+        </div>
+        <!-- fast_part end -->
+        <!-- second_part start -->
+        <div class="relative w-full bg-no-repeat bg-cover bg-center after:absolute after:content-[''] after:w-full after:h-full after:bg-[#0c0c0c60] after:top-0 after:left-0 after:z-[-1] z-10"style="background-image: url(./Images/bar\ menu\ \(4\).jpg);">
+          <!-- text  -->
+          <div class="flex justify-between">
+            <!-- box one -->
+            <div class="w-[460px] flex justify-center">
+              <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub max-w-[209px] py-[367px] text-center">Bar Menu</h3>
+            </div>
+            <!-- box one -->
+            <!-- box one -->
+            <div class=" relative w-[460px] flex justify-center after:absolute after:content-[''] after:w-[3px] after:h-[800px] after:bg-[#F5EFDB] after:left-0 after:top-[50%] after:-translate-y-1/2">
+              <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub max-w-[209px] py-[367px] text-center">Food Menu </h3>
+            </div>
+            <!-- box one -->
+            <!-- box one -->
+            <div class="relative w-[460px] flex justify-center after:absolute after:content-[''] after:w-[3px] after:h-[800px] after:bg-[#F5EFDB] after:left-0 after:top-[50%] after:-translate-y-1/2">
+              <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub max-w-[209px] py-[367px] text-center">Desserts Menu</h3>
+            </div>
+            <!-- box one -->
+          </div>
+          <!-- text  -->
+        </div>
+        <!-- second_part end -->
+        <!-- Thard_part start -->
+        <div class="relative w-full bg-no-repeat bg-cover bg-center after:absolute after:content-[''] after:w-full after:h-full after:bg-[#0c0c0c60] after:top-0 after:left-0 after:z-[-1] z-10"style="background-image: url(./Images/bar\ menu\ \(1\).jpg);">
+          <!-- text  -->
+          <div class="flex justify-between">
+            <!-- box one -->
+            <div class="w-[460px] flex justify-center">
+              <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub max-w-[209px] py-[367px] text-center">Bar Menu</h3>
+            </div>
+            <!-- box one -->
+            <!-- box one -->
+            <div class=" relative w-[460px] flex justify-center after:absolute after:content-[''] after:w-[3px] after:h-[800px] after:bg-[#F5EFDB] after:left-0 after:top-[50%] after:-translate-y-1/2">
+              <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub max-w-[209px] py-[367px] text-center">Food Menu </h3>
+            </div>
+            <!-- box one -->
+            <!-- box one -->
+            <div class="relative w-[460px] flex justify-center after:absolute after:content-[''] after:w-[3px] after:h-[800px] after:bg-[#F5EFDB] after:left-0 after:top-[50%] after:-translate-y-1/2">
+              <h3 class="font-semibold text-white text-[64px] leading-[130%] font-sub max-w-[209px] py-[367px] text-center">Desserts Menu</h3>
+            </div>
+            <!-- box one -->
+          </div>
+          <!-- text  -->
+        </div>
+        <!-- Thard_part end -->
+      </div>
+      <!-- slider end -->
+        <!-- logo animation -->
+  <div class="round_animation w-[146px] absolute top-0 right-[100%] translate-x-[50px] translate-y-[-23px] z-50">
+    <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+</div>
+  <!-- logo animation -->
+    </div>
+  <!-- container end -->
+ </section>
+ <!-- ==============================Bar menu slider End=========================== -->
+ <!-- ============================Today's special_part Start========================= -->
+ <section class="bg-black pt-[152px]">
+  <!-- container start -->
+  <div class="max-w-[1300px] mx-auto text-center">
+    <!-- heading_part -->
+    <div class="text-center pb-16">
+      <h6 class="text-[23px] font-bold font-sub text-white leading-[130%]">Menu that fits you palatte</h6>
+      <div class="flex justify-center py-2">
+        <img src="Images/Vector.png" alt="">
+      </div>
+      <h1 class="text-[#DCCA87] text-[64px] font-semibold font-sub">Today’s Special</h1>
+    </div>
+    <!-- heading_part -->
+    <!--main content -->
+    <div class="flex justify-between">
+          <!-- box one -->
+    <div class="w-[450px] text-center">
+      <h2 class="font-semibold text-[45px] text-white leading-[130%] font-sub pb-12">Wine & Beer</h2>
+      <div>
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Chapel Hill Shiraz</h3>
+            <div class="flex items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$56</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">AU | Bottle</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Catena Malbec</h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$59</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">AR | Bottle</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">La Vieille Rosé</h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$44</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">FR | 750 ml</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Rhino Pale Ale</h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$31</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">CA | 750 ml</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Irish Guinness
+            </h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$26</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">IE | 750 ml</p>
+        </div>
+        <!-- row -->
+      </div>
+    </div>
+     <!-- box one -->
+    <!-- image_box -->
+    <div>
+      <img src="Images/blender.png" alt="">
+    </div>
+    <!-- image_box -->
+    <!-- box two -->
+    <div class="w-[412px] text-center">
+      <h2 class="font-semibold text-[45px] text-white leading-[130%] font-sub pb-12">Wine & Beer</h2>
+      <div>
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Aperol Spritz
+            </h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$20</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">Aperol | Villa Marchesi prosecco | soda | 30ml</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Dark 'N' Stormy
+            </h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$16</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">Dark rum | Ginger beer | Slice of lime. </p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Daiquiri
+            </h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$10</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">Rum | Citrus juice | Sugar</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="pb-10">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Old Fashioned
+            </h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$31</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">Bourbon | Brown sugar | Angostura Bitters</p>
+        </div>
+        <!-- row -->
+        <!-- row -->
+        <div class="">
+          <div class="flex justify-between">
+            <h3 class="text-[#DCCA87] text-[23px] leading-[130%] font-bold font-sub">Negroni
+            </h3>
+            <div class="items-end">
+              <div class="flex items-center gap-8">
+                <div><img src="Images/line.png" alt=""></div>
+                <p class="text-white">$26</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-[#AAAAAA] flex items-start pt-2">Gin | Sweet Vermouth | Campari | Orange garnish</p>
+        </div>
+        <!-- row -->
+      </div>
+    </div>
+    <!-- box two -->
+    </div>
+    <!--main content -->
+     <!-- button -->
+    <div class="pt-16">
+      <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">View More</button>
+    </div>
+     <!-- button -->
+  </div>
+  <!-- container End -->
+ </section>
+ <!-- ============================Today's special_part End========================= -->
+<!-- =============================chef_Part start=============================== -->
+<section class="bg-Bg relative w-full bg-no-repeat bg-cover bg-center after:content-[''] after:absolute after:bg-[#04040460] after:w-full after:h-full after:top-0 after:z-[-2] z-10">
+  <!-- container -->
+  <div class="py-32 max-w-[1300px] mx-auto flex justify-between items-center z-30 relative">
+    <!-- chef_slider_part start -->
+    <div class="w-[634px] h-[789px] relative">
+      <div class="absolute content-[''] w-[435px] h-[435px] bg-[#DCCA87] top-0 right-0"></div>
+      <div class="absolute content-[''] w-[435px] h-[435px] bg-[#DCCA87] bottom-0 left-0"></div>
+
+      <div class="bnnerSlider w-[586px] h-[741px] top-[24px] left-[24px]">
+        <div><img src="Images/chef (1).jpg" alt=""></div>
+        <div><img src="Images/chef (2).jpg" alt=""></div>
+      </div>
+    </div>
+    <!-- chef_slider_part end -->
+    <!-- chef content_part start -->
+    <div class="w-[570px]">
+      <h4 class="text-white text-[23px] font-bold leading-[130%] font-sub">Chef’s Word</h4>
+      <div class="my-2"><img src="Images/Vector.png" alt=""></div>
+      <h1 class="text-[64px] font-semibold font-sub text-[#DCCA87] leading-[130%]">What we believe in</h1>
+      <div class="">
+        <div class="py-16">
+          <div class="flex">
+            <div><img src="Images/invaited.png" alt=""></div>
+            <span class="text-[#AAAAAA] font-common italic mx-2 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</span>
+          </div> 
+          <p class="text-[#aaaaaa] italic font-common">auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.</p>
+        </div>
+        <h4 class="text-[32px] text-[#DCCA87] font-sub leading-[130%]">Kevin Luo</h4>
+        <p class="leading-[175%] text-[#AAAAAA] pt-2 pb-16">Chef & Founder</p>
+        <div>
+          <img src="Images/Kevin Luo.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- chef content_part end -->
+      <!-- logo animation -->
+      <div class="round_animation w-[146px] absolute top-full left-[100%] translate-x-[50px] translate-y-[-23px] z-50">
+        <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+      </div>
+     <!-- logo animation -->
+  </div>
+  <!-- container -->
+</section>
+<!-- =============================chef_Part End=============================== -->
+<!-- =============================castomar_part start========================== -->
+ <!-- testimonial --> 
+ <section id="testimonial" class="py-[152px] bg-black">
+  <div class="container max-w-[1300px] flex flex-col gap-y-16">
+      <div class="title flex flex-col gap-x-2 justify-center items-center">
+          <span class="text-white text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">testimonial</span>
+          <div class="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="10" viewBox="0 0 40 10" fill="none">
+                  <path d="M33.5016 9.5C37.0849 9.5 40 7.48129 40 4.99995C40 2.51861 37.0849 0.5 33.5016 0.5C30.1122 0.5 27.3221 2.30637 27.03 4.6018H22.3529V3.6552L0 3.6552V6.34446L22.353 6.34446V5.39798H27.0301C27.3223 7.69352 30.1122 9.5 33.5016 9.5ZM21.4898 5.54839L0.863293 5.54839V4.45161H21.4898V5.54839ZM27.8662 4.99995C27.8662 2.95778 30.3944 1.2964 33.5017 1.2964C36.6091 1.2964 39.1372 2.95778 39.1372 4.99995C39.1372 7.04222 36.6091 8.7037 33.5017 8.7037C30.3944 8.7037 27.8662 7.04222 27.8662 4.99995Z" fill="#DCCA87"/>
+              </svg>
+          </div>
+          <h2 class="text-[64px] text-[#DCCA87] font-sub font-bold leading-[130%]">Happy customers</h2>
+      </div>
+      <div class="mid flex justify-between">
+          <div class="child flex gap-x-4">
+              <div class="image pr-4 pb-5 relative">
+                  <img src="./Images/testimony_customer-1.png" alt="">
+                  <div class="absolute top-full left-full translate-x-[-47px] translate-y-[-40px] w-[47px] h-10">
+                      <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 47 40" fill="none">
+                          <path d="M12.9137 22.8571C15.3163 22.8571 17.2183 23.6592 18.6198 25.2632C20.1214 26.7669 20.8722 28.7719 20.8722 31.2782C20.8722 33.985 19.9712 36.1404 18.1693 37.7444C16.4675 39.2481 14.115 40 11.1118 40C7.60809 40 4.85517 38.6466 2.85304 35.9399C0.951012 33.2331 0 29.3734 0 24.3609C0 19.8496 1.00107 15.6892 3.00319 11.8797C5.00533 7.96992 8.00852 4.06015 12.0128 0.150374C12.1129 0.0501247 12.263 0 12.4633 0C12.7636 0 13.0138 0.150374 13.2141 0.451122C13.4143 0.751876 13.4143 1.0025 13.2141 1.203C8.30884 6.21553 5.85623 12.1303 5.85623 18.9474C5.85623 21.7544 6.35676 23.8095 7.35783 25.1128C8.25879 23.609 10.1108 22.8571 12.9137 22.8571ZM39.0415 22.8571C41.4441 22.8571 43.3461 23.6592 44.7476 25.2632C46.2492 26.7669 47 28.7719 47 31.2782C47 33.985 46.099 36.1404 44.2971 37.7444C42.5953 39.2481 40.2428 40 37.2396 40C33.7359 40 30.983 38.6466 28.9808 35.9399C27.0788 33.2331 26.1278 29.3734 26.1278 24.3609C26.1278 19.8496 27.1289 15.6892 29.131 11.8797C31.1331 7.96992 34.1363 4.06015 38.1406 0.150374C38.2407 0.0501247 38.3908 0 38.5911 0C38.8914 0 39.1416 0.150374 39.3419 0.451122C39.5421 0.751876 39.5421 1.0025 39.3419 1.203C34.4366 6.21553 31.984 12.1303 31.984 18.9474C31.984 21.7544 32.4846 23.8095 33.4856 25.1128C34.3866 23.609 36.2386 22.8571 39.0415 22.8571Z" fill="white"/>
+                        </svg>
+                  </div>
+              </div>
+              <div class="text flex flex-col justify-center">
+                  <p class="max-w-[412px] italic text-[#AAAAAA]">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.
+                  </p>
+                  <h3 class="mt-4 mb-1 text-[#DCCA87] font-sub text-[23px] leading-[130%]">
+                      Wade Warren
+                  </h3>
+                  <p class="text-[#F5EFDB] mt-1 leading-[175%]">Sommelier</p>
+              </div>
+          </div>
+          <div class="child flex gap-x-4">
+              <div class="image pr-4 pb-5 relative">
+                  <img src="./Images/testimony_customer-2.png" alt="">
+                  <div class="absolute top-full left-full translate-x-[-47px] translate-y-[-40px] w-[47px] h-10">
+                      <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 47 40" fill="none">
+                          <path d="M12.9137 22.8571C15.3163 22.8571 17.2183 23.6592 18.6198 25.2632C20.1214 26.7669 20.8722 28.7719 20.8722 31.2782C20.8722 33.985 19.9712 36.1404 18.1693 37.7444C16.4675 39.2481 14.115 40 11.1118 40C7.60809 40 4.85517 38.6466 2.85304 35.9399C0.951012 33.2331 0 29.3734 0 24.3609C0 19.8496 1.00107 15.6892 3.00319 11.8797C5.00533 7.96992 8.00852 4.06015 12.0128 0.150374C12.1129 0.0501247 12.263 0 12.4633 0C12.7636 0 13.0138 0.150374 13.2141 0.451122C13.4143 0.751876 13.4143 1.0025 13.2141 1.203C8.30884 6.21553 5.85623 12.1303 5.85623 18.9474C5.85623 21.7544 6.35676 23.8095 7.35783 25.1128C8.25879 23.609 10.1108 22.8571 12.9137 22.8571ZM39.0415 22.8571C41.4441 22.8571 43.3461 23.6592 44.7476 25.2632C46.2492 26.7669 47 28.7719 47 31.2782C47 33.985 46.099 36.1404 44.2971 37.7444C42.5953 39.2481 40.2428 40 37.2396 40C33.7359 40 30.983 38.6466 28.9808 35.9399C27.0788 33.2331 26.1278 29.3734 26.1278 24.3609C26.1278 19.8496 27.1289 15.6892 29.131 11.8797C31.1331 7.96992 34.1363 4.06015 38.1406 0.150374C38.2407 0.0501247 38.3908 0 38.5911 0C38.8914 0 39.1416 0.150374 39.3419 0.451122C39.5421 0.751876 39.5421 1.0025 39.3419 1.203C34.4366 6.21553 31.984 12.1303 31.984 18.9474C31.984 21.7544 32.4846 23.8095 33.4856 25.1128C34.3866 23.609 36.2386 22.8571 39.0415 22.8571Z" fill="white"/>
+                        </svg>
+                  </div>
+              </div>
+              <div class="text flex flex-col justify-center">
+                  <p class="max-w-[412px] italic text-[#AAAAAA]">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.
+                  </p>
+                  <h3 class="mt-4 mb-1 text-[#DCCA87] font-sub text-[23px] leading-[130%]">
+                      jane cooper
+                  </h3>
+                  <p class="text-[#F5EFDB] mt-1 leading-[175%]">Chef</p>
+              </div>
+          </div>
+      </div>
+      <div class="lower flex justify-between">
+          <div class="child flex gap-x-4">
+              <div class="image pr-4 pb-5 relative">
+                  <img src="./Images/testimony_customer-3.png" alt="">
+                  <div class="absolute top-full left-full translate-x-[-47px] translate-y-[-40px] w-[47px] h-10">
+                      <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 47 40" fill="none">
+                          <path d="M12.9137 22.8571C15.3163 22.8571 17.2183 23.6592 18.6198 25.2632C20.1214 26.7669 20.8722 28.7719 20.8722 31.2782C20.8722 33.985 19.9712 36.1404 18.1693 37.7444C16.4675 39.2481 14.115 40 11.1118 40C7.60809 40 4.85517 38.6466 2.85304 35.9399C0.951012 33.2331 0 29.3734 0 24.3609C0 19.8496 1.00107 15.6892 3.00319 11.8797C5.00533 7.96992 8.00852 4.06015 12.0128 0.150374C12.1129 0.0501247 12.263 0 12.4633 0C12.7636 0 13.0138 0.150374 13.2141 0.451122C13.4143 0.751876 13.4143 1.0025 13.2141 1.203C8.30884 6.21553 5.85623 12.1303 5.85623 18.9474C5.85623 21.7544 6.35676 23.8095 7.35783 25.1128C8.25879 23.609 10.1108 22.8571 12.9137 22.8571ZM39.0415 22.8571C41.4441 22.8571 43.3461 23.6592 44.7476 25.2632C46.2492 26.7669 47 28.7719 47 31.2782C47 33.985 46.099 36.1404 44.2971 37.7444C42.5953 39.2481 40.2428 40 37.2396 40C33.7359 40 30.983 38.6466 28.9808 35.9399C27.0788 33.2331 26.1278 29.3734 26.1278 24.3609C26.1278 19.8496 27.1289 15.6892 29.131 11.8797C31.1331 7.96992 34.1363 4.06015 38.1406 0.150374C38.2407 0.0501247 38.3908 0 38.5911 0C38.8914 0 39.1416 0.150374 39.3419 0.451122C39.5421 0.751876 39.5421 1.0025 39.3419 1.203C34.4366 6.21553 31.984 12.1303 31.984 18.9474C31.984 21.7544 32.4846 23.8095 33.4856 25.1128C34.3866 23.609 36.2386 22.8571 39.0415 22.8571Z" fill="white"/>
+                        </svg>
+                  </div>
+              </div>
+              <div class="text flex flex-col justify-center">
+                  <p class="max-w-[412px] italic text-[#AAAAAA]">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.
+                  </p>
+                  <h3 class="mt-4 mb-1 text-[#DCCA87] font-sub text-[23px] leading-[130%]">
+                      Wade Warren
+                  </h3>
+                  <p class="text-[#F5EFDB] mt-1 leading-[175%]">Sommelier</p>
+              </div>
+          </div>
+          <div class="child flex gap-x-4">
+              <div class="image pr-4 pb-5 relative">
+                  <img src="./Images/testimony_customer-4.png" alt="">
+                  <div class="absolute top-full left-full translate-x-[-47px] translate-y-[-40px] w-[47px] h-10">
+                      <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 47 40" fill="none">
+                          <path d="M12.9137 22.8571C15.3163 22.8571 17.2183 23.6592 18.6198 25.2632C20.1214 26.7669 20.8722 28.7719 20.8722 31.2782C20.8722 33.985 19.9712 36.1404 18.1693 37.7444C16.4675 39.2481 14.115 40 11.1118 40C7.60809 40 4.85517 38.6466 2.85304 35.9399C0.951012 33.2331 0 29.3734 0 24.3609C0 19.8496 1.00107 15.6892 3.00319 11.8797C5.00533 7.96992 8.00852 4.06015 12.0128 0.150374C12.1129 0.0501247 12.263 0 12.4633 0C12.7636 0 13.0138 0.150374 13.2141 0.451122C13.4143 0.751876 13.4143 1.0025 13.2141 1.203C8.30884 6.21553 5.85623 12.1303 5.85623 18.9474C5.85623 21.7544 6.35676 23.8095 7.35783 25.1128C8.25879 23.609 10.1108 22.8571 12.9137 22.8571ZM39.0415 22.8571C41.4441 22.8571 43.3461 23.6592 44.7476 25.2632C46.2492 26.7669 47 28.7719 47 31.2782C47 33.985 46.099 36.1404 44.2971 37.7444C42.5953 39.2481 40.2428 40 37.2396 40C33.7359 40 30.983 38.6466 28.9808 35.9399C27.0788 33.2331 26.1278 29.3734 26.1278 24.3609C26.1278 19.8496 27.1289 15.6892 29.131 11.8797C31.1331 7.96992 34.1363 4.06015 38.1406 0.150374C38.2407 0.0501247 38.3908 0 38.5911 0C38.8914 0 39.1416 0.150374 39.3419 0.451122C39.5421 0.751876 39.5421 1.0025 39.3419 1.203C34.4366 6.21553 31.984 12.1303 31.984 18.9474C31.984 21.7544 32.4846 23.8095 33.4856 25.1128C34.3866 23.609 36.2386 22.8571 39.0415 22.8571Z" fill="white"/>
+                        </svg>
+                  </div>
+              </div>
+              <div class="text flex flex-col justify-center">
+                  <p class="max-w-[412px] italic text-[#AAAAAA]">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue.
+                  </p>
+                  <h3 class="mt-4 mb-1 text-[#DCCA87] font-sub text-[23px] leading-[130%]">
+                      jane cooper
+                  </h3>
+                  <p class="text-[#F5EFDB] mt-1 leading-[175%]">Chef</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- testimonial -->
+<!-- =============================castomar_part End========================== -->
+<!-- =============================Videos_Part start=================================== -->
+ <section id="video" class="bg-black">
+  <!-- container -->
+  <div class="max-w-[1920px] mx-auto">
+    <div class=" relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[#0c0c0c66] z-10">
+      <img src="./Images/video_img.png" alt="" class="">
+      <div class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20">
+          <img src="./Images/Play_button.png" alt="">
+      </div>
+      <div class="round_animation absolute top-[147px] left-[197px] z-20">
+          <img src="./Images/rotate_animation.png" alt="" class="animate-rotate">
+      </div>
+  </div>
+  </div>
+  <!-- container -->
+</section>
+<!-- =============================Videos_Part End=================================== -->
+         <!-- award -->
+         <section id="award" class="py-32 bg-image bg-cover relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-[#05050580] z-10">
+          <div class="container max-w-[1300px] flex justify-between items-center relative z-20">
+              <div class="left_view flex flex-col gap-y-16">
+                  <div class="title flex flex-col gap-x-2">
+                      <span class="text-white text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Awards & recognition</span>
+                      <div class="">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="10" viewBox="0 0 40 10" fill="none">
+                              <path d="M33.5016 9.5C37.0849 9.5 40 7.48129 40 4.99995C40 2.51861 37.0849 0.5 33.5016 0.5C30.1122 0.5 27.3221 2.30637 27.03 4.6018H22.3529V3.6552L0 3.6552V6.34446L22.353 6.34446V5.39798H27.0301C27.3223 7.69352 30.1122 9.5 33.5016 9.5ZM21.4898 5.54839L0.863293 5.54839V4.45161H21.4898V5.54839ZM27.8662 4.99995C27.8662 2.95778 30.3944 1.2964 33.5017 1.2964C36.6091 1.2964 39.1372 2.95778 39.1372 4.99995C39.1372 7.04222 36.6091 8.7037 33.5017 8.7037C30.3944 8.7037 27.8662 7.04222 27.8662 4.99995Z" fill="#DCCA87"/>
+                          </svg>
+                      </div>
+                      <h2 class="font-sub text-[64px] text-[#DCCA87] font-semibold leading-[130%]">Our Laurels</h2>
+                  </div>
+                  <div class="mid flex gap-x-8">
+                      <div class="child flex gap-x-8">
+                          <div><img src="./Images/award_title-1.png" alt=""></div>
+                          <div>
+                              <span class="text-[#DCCA87] text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Bib Gourmond</span>
+                              <p class="mt-2 max-w-[190px] text-[#AAAAAA] font-sans leading-[130%]">
+                                  Lorem ipsum dolor sit amet, consectetur.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="child flex gap-x-8">
+                          <div><img src="./Images/award_title-2.png" alt=""></div>
+                          <div>
+                              <span class="text-[#DCCA87] text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Rising Star</span>
+                              <p class="mt-2 max-w-[190px] text-[#AAAAAA] font-sans leading-[130%]">
+                                  Lorem ipsum dolor sit amet, consectetur.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="lower flex gap-x-8">
+                      <div class="child flex gap-x-8">
+                          <div><img src="./Images/award_title-3.png" alt=""></div>
+                          <div>
+                              <span class="text-[#DCCA87] text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">AA Hospitality </span>
+                              <p class="mt-2 max-w-[190px] text-[#AAAAAA] font-sans leading-[130%]">
+                                  Lorem ipsum dolor sit amet, consectetur.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="child flex gap-x-8">
+                          <div><img src="./Images/award_title-4.png" alt=""></div>
+                          <div>
+                              <span class="text-[#DCCA87] text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Outstanding Chef</span>
+                              <p class="mt-2 max-w-[190px] text-[#AAAAAA] font-sans leading-[130%]">
+                                  Lorem ipsum dolor sit amet, consectetur.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="right_view">
+                  <div class="image border-2 border-[#dcca8733] border-solid relative">
+                      <img src="./Images/award_image.png" alt="">
+                      <div class="G absolute top-[100%] left-[-72px] translate-y-[-100%]">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="360" height="379" viewBox="0 0 360 379" fill="none">
+                              <path opacity="0.8" d="M211.35 379C167.906 379 130.137 370.617 98.0429 353.85C66.3404 337.084 42.0742 314.079 25.2445 284.835C8.41475 255.201 -0.00012207 222.058 -0.00012207 185.406C-0.00012207 149.923 9.39322 118.145 28.1799 90.071C46.9666 61.607 72.6026 39.5767 105.088 23.9799C137.573 7.99331 173.777 0 213.699 0C232.094 0 250.88 1.75463 270.059 5.26389C289.237 8.38324 304.305 12.2824 315.264 16.9614C318.395 18.5211 320.352 20.0808 321.135 21.6404C321.918 23.2001 322.505 26.1245 322.896 30.4136L327.593 107.032C327.593 108.592 326.614 109.567 324.657 109.957C322.7 110.347 321.331 109.957 320.548 108.787C306.849 79.1533 288.845 56.1482 266.536 39.7716C244.227 23.0052 218.395 14.6219 189.041 14.6219C151.076 14.6219 121.526 28.0741 100.391 54.9784C79.2562 81.4928 68.6887 117.755 68.6887 163.765C68.6887 203.927 75.7337 239.409 89.8237 270.213C103.914 301.016 123.092 324.801 147.358 341.568C172.016 358.334 199.804 366.718 230.724 366.718C244.814 366.718 255.577 364.768 263.014 360.869C270.45 356.58 275.538 349.756 278.278 340.398C281.409 330.65 282.974 316.613 282.974 298.287C282.974 279.181 281.213 265.339 277.691 256.761C274.168 248.183 267.71 242.529 258.317 239.799C248.924 237.07 233.855 235.705 213.111 235.705C210.763 235.705 209.589 234.146 209.589 231.026C209.589 229.856 209.785 228.882 210.176 228.102C210.959 226.932 211.742 226.347 212.524 226.347C245.01 228.297 272.016 229.272 293.542 229.272C313.894 229.272 335.029 228.687 356.947 227.517C358.513 227.517 359.491 228.882 359.882 231.611C360.274 234.341 359.687 235.705 358.121 235.705C351.859 235.315 347.945 236.875 346.38 240.384C344.814 243.894 344.031 251.887 344.031 264.364V304.136C344.031 321.682 344.618 333.964 345.792 340.983C346.967 348.002 347.554 352.876 347.554 355.605C347.554 357.944 347.162 359.504 346.38 360.284C345.988 361.064 344.618 361.844 342.27 362.623C292.172 373.541 248.532 379 211.35 379Z" fill="#FAFAFA"/>
+                          </svg>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+       <!-- award -->
+       <!-- blog -->
+       <section id="blog" class="bg-black py-[152px] relative ">
+        <div class="container max-w-[1300px] relative flex flex-col gap-y-16 justify-center items-center">
+            <div class="title flex flex-col gap-x-2 justify-center items-center">
+                <span class="text-white text-[23px] font-bold leadinng-[130%] tracking-[0.92px] capitalize font-sub">Blogs</span>
+                    <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="10" viewBox="0 0 40 10" fill="none">
+                            <path d="M33.5016 9.5C37.0849 9.5 40 7.48129 40 4.99995C40 2.51861 37.0849 0.5 33.5016 0.5C30.1122 0.5 27.3221 2.30637 27.03 4.6018H22.3529V3.6552L0 3.6552V6.34446L22.353 6.34446V5.39798H27.0301C27.3223 7.69352 30.1122 9.5 33.5016 9.5ZM21.4898 5.54839L0.863293 5.54839V4.45161H21.4898V5.54839ZM27.8662 4.99995C27.8662 2.95778 30.3944 1.2964 33.5017 1.2964C36.6091 1.2964 39.1372 2.95778 39.1372 4.99995C39.1372 7.04222 36.6091 8.7037 33.5017 8.7037C30.3944 8.7037 27.8662 7.04222 27.8662 4.99995Z" fill="#DCCA87"/>
+                          </svg>
+                    </div>
+                    <h2 class="text-[#DCCA87] text-[64px] font-sub font-semibold leading-[130%]">Gerícht updates</h2>
+            </div>
+            <div class="blog_cards flex gap-x-8">
+                <div class="child max-w-[412px]">
+                    <div class="img">
+                        <img src="./Images/blogcard_img-1.png" alt="">
+                    </div>
+                    <div class="text flex flex-col gap-y-8 mt-6">
+                        <div class="flex justify-between items-center">
+                            <p class="text-[#FAFAFA] font-sans leading-[175%]">16 Apr 2021</p>
+                            <p class="text-[#FAFAFA] font-sans leading-[175%]">- Annalisa L</p>
+                        </div>
+                        <a href="">
+                            <h3 class="text-[32px] text-[#DCCA87] font-sub leading-[130%] capitalize hover:underline">
+                                tips for prepping and caring for your grill
+                            </h3>
+                        </a>
+                        <p class="font-sans leading-[130%] text-[#AAAAAA]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="text-base text-[#DCCA87] font-sub font-bold leading-[175%] tracking-[0.64px]">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="child max-w-[412px]">
+                    <div class="img">
+                        <img src="./Images/blogcard_img-2.png" alt="">
+                    </div>
+                    <div class="text flex flex-col gap-y-8 mt-6">
+                        <div class="flex justify-between items-center">
+                            <p class="text-[#FAFAFA] font-sans leading-[175%]">23 May 2021</p>
+                            <p class="text-[#FAFAFA] font-sans leading-[175%]">-John Micheal</p>
+                        </div>
+                        <a href="">
+                            <h3 class="text-[32px] text-[#DCCA87] font-sub leading-[130%] capitalize hover:underline">
+                              summer cocktails and mocktails
+                            </h3>
+                        </a>
+                        <p class="font-sans leading-[130%] text-[#AAAAAA]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="text-base text-[#DCCA87] font-sub font-bold leading-[175%] tracking-[0.64px]">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+                <div class="child max-w-[412px]">
+                    <div class="img">
+                        <img src="./Images/blogcard_img-3.png" alt="">
+                    </div>
+                    <div class="text flex flex-col gap-y-8 mt-6">
+                        <div class="flex justify-between items-center">
+                            <p class="text-[#FAFAFA] font-sans leading-[175%]">06 Aug 2021</p>
+                            <p class="text-[#FAFAFA] font-sans leading-[175%]">-Fred W</p>
+                        </div>
+                        <a href="">
+                            <h3 class="text-[32px] text-[#DCCA87] font-sub leading-[130%] capitalize hover:underline">
+                              easy cooking for college students
+                            </h3>
+                        </a>
+                        <p class="font-sans leading-[130%] text-[#AAAAAA]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+                        <a href="#" class="text-base text-[#DCCA87] font-sub font-bold leading-[175%] tracking-[0.64px]">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">View More</button>
+            </div>
+            <div class="round_animation w-[146px] absolute top-full left-[100%] translate-x-[50px] translate-y-[-23px] z-20">
+                <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+            </div>
+        </div>
+     </section>
+    <!-- blog -->
+    <!-- ================================Photo Gallery_Part start========================== -->
+    <section class="bg-black pb-[221px]">
+      <!-- container start -->
+      <div class="max-w-[1920px] mx-auto pb-[128px] relative ">
+       <div class="py-32 pl-[310px] flex items-center">
+            <!-- text -->
+            <div>
+             <h4 class="text-[#FFFFFF] text-[23px] font-sub font-bold leading-[130%]">Instagram</h4>
+             <div class="py-2"><img src="Images/Vector.png" alt=""></div>
+             <h1 class="text-[64px] text-[#DCCA87] font-sub font-semibold leading-[130%]">Photo Gallery</h1>
+             <p class="font-sans text-[#AAAAAA] max-w-[491px] py-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+             <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">View More</button>
+            </div>
+           <!-- text -->
+           <!-- Photo_slider start -->
+        <div class="">
+          <div class="photoSlider py-12 w-[1055px]">
+            <div class="w-[301px] h-[447px] mx-3 bg-no-repeat bg-cover bg-center bg-A"> 
+            </div>
+            <div class="w-[301px] h-[447px] mx-3 bg-no-repeat bg-cover bg-center bg-B"> 
+            </div>
+            <div class="w-[301px] h-[447px] mx-3 bg-no-repeat bg-cover bg-center bg-C"> 
+            </div>
+            <div class="w-[301px] h-[447px] mx-3 bg-no-repeat bg-cover bg-center bg-D"> 
+            </div>
+            <div class="w-[301px] h-[447px] mx-3 bg-no-repeat bg-cover bg-center bg-E"> 
+            </div>
+          </div>
+          <!-- Photo_slider start -->
+        </div>
+       </div>
+         <!-- logo animation -->
+          <div class="round_animation w-[146px] absolute top-[70%] right-[100%] translate-x-[50%] translate-y-[50%] z-50">
+            <img src="./Images/rotate_animation.png" alt="" class="animate-rotate w-full">
+          </div>
+        <!-- logo animation -->
+      </div>
+      <!-- container end -->
+    </section>
+    <!-- ================================Photo Gallery_Part End============================ -->
+    <!-- ====================================Footer_part start============================== -->
+    <footer class="bg-image bg-cover pt-[349px] pb-[128px] relative after:content-[''] after:w-full after:h-full after:bg-[#04040459] after:absolute after:top-0 after:left-0">
+      <div class="container max-w-[1300px]">
+          <div class="top_scroll flex flex-col gap-y-2 items-center absolute top-[173px] right-[6%] z-20">
+              <div class="line">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="2" height="61" viewBox="0 0 2 61" fill="none">
+                      <path d="M1 61L1.00001 9.53674e-07" stroke="url(#paint0_linear_566_1693)"/>
+                      <defs>
+                        <linearGradient id="paint0_linear_566_1693" x1="29.5042" y1="-11.8571" x2="29.5042" y2="78.2931" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#DCCA87"/>
+                          <stop offset="0.430036" stop-color="#DCCA87"/>
+                          <stop offset="0.927083" stop-color="#DCCA87" stop-opacity="0.24"/>
+                        </linearGradient>
+                      </defs>
+                    </svg>
+              </div>
+              <a href="#">
+                  <span class="text-base text-[#DCCA87] uppercase font-sub font-bold leading-[175%] tracking-[0.64px]">top</span>
+              </a>
+          </div>
+          <div class="subscribe absolute top-[1px] left-[50%] translate-x-[-50%] translate-y-[-50%] z-20 px-[252px] py-16 bg-[#0C0C0C] border border-[#dcca8733] border-solid shadow-subs-shadow">
+              <div class="flex flex-col justify-center items-center">
+                  <span class="text-white text-[23px] font-sub font-bold leadinng-[130%] tracking-[0.92px] capitalize">Newsletter</span>
+                  <div class="my-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="9" viewBox="0 0 40 9" fill="none">
+                      <path d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z" fill="#DCCA87"/>
+                      </svg>
+                  </div>
+                  <h2 class="text-[64px] font-bold mb-6 whitespace-nowrap text-[#DCCA87] font-sub">
+                      Subscribe to Our Newsletter
+                  </h2>
+                  <p class="text-base text-white">
+                      And never miss latest Updates!
+                  </p>
+              </div>
+              <div class="mt-16 flex justify-between items-center gap-x-8">
+                  <input type="text" class="px-[19px] py-4 text-base text-[#AAA] font-headings leading-[175%] tracking-[0.64px] capitalize font-semibold w-[100%] border border-solid border-[#F5EFDB] bg-transparent focus:outline-none" placeholder="Email Address">
+                  <button class="py-2 px-8 bg-[#DCCA87] text-[#0C0C0C] font-sub font-bold border border-black duration-[.4s] hover:bg-transparent hover:border hover:text-white hover:border-[#DCCA87]">Subscribe</button>
+              </div>
+          </div>
+          <div class="index-1 relative z-10">
+              <div class="menu flex justify-between items-center">
+                  <div class="left">
+                      <ul class="text-center">
+                          <h5 class="text-[32px] leading-[130%] tracking-[1.28px] text-[#F5EFDB] font-sub font-normal capitalize">Contact Us</h5>
+                          <div class="text-[#aaa] text-base font-common leading-[175%] tracking-[0.64px]">
+                              <li class="mb-2 mt-6"><a href="#">9 W 53rd St, New York, NY 10019, USA</a></li>
+                              <li><a href="tel:+1 212-344-1230">+1 212-344-1230</a></li>
+                              <li><a href="tel:+1 212-344-1230">+1 212-555-1230</a></li>
+                          </div>
+                      </ul>
+                  </div>
+                  <div class="middle flex flex-col items-center">
+                      <a href="index.html"><img src="./Images/footer logo.png" alt="footer_logo"></a>
+                      <p class="max-w-[438px] text-center mt-8 mb-4 text-white font-sans leading-[175%]">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                      <div class="mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="9" viewBox="0 0 40 9" fill="none">
+                              <path d="M33.5016 9C37.0849 9 40 6.98129 40 4.49995C40 2.01861 37.0849 0 33.5016 0C30.1122 0 27.3221 1.80637 27.03 4.1018H22.3529V3.1552L0 3.1552V5.84446L22.353 5.84446V4.89798H27.0301C27.3223 7.19352 30.1122 9 33.5016 9ZM21.4898 5.04839L0.863293 5.04839V3.95161L21.4898 3.95161V5.04839ZM27.8662 4.49995C27.8662 2.45778 30.3944 0.796403 33.5017 0.796403C36.6091 0.796403 39.1372 2.45778 39.1372 4.49995C39.1372 6.54222 36.6091 8.2037 33.5017 8.2037C30.3944 8.2037 27.8662 6.54222 27.8662 4.49995Z" fill="#DCCA87"/>
+                            </svg>
+                      </div>
+                      <div class="icons flex gap-x-4 text-2xl text-white">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </div>
+                  </div>
+                  <div class="right">
+                      <ul class="text-center">
+                          <h5 class="text-[32px] leading-[130%] tracking-[1.28px] text-[#F5EFDB] font-sub font-normal capitalize">Working Hours</h5>
+                          <p class="mt-6 text-white font-sans leading-[175%]">
+                              Monday-Friday: <br>
+                              08:00 am -12:00 am
+                          </p>
+                          <p class="mt-2 text-white font-sans leading-[175%]">
+                              Saturday-Sunday: <br>
+                              07:00am -11:00 pm
+                          </p>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <p class="text-center mt-[80px] text-[#AAAAAA] leading-[175%] font-sans">2021 Gerícht. All Rights reserved.</p>
+      </div>
+   </footer>
+    <!-- ====================================Footer_part start============================== -->
+    
+ <!-- ===================================jquery minified file=============================== -->
+ <script src="js/jquery-1.12.4.min.js"></script>
+ <!-- ===================================jquery minified file=============================== -->
+ <!-- ==================================slick slider js link============================= -->
+ <script src="js/slick.min.js"></script>
+ <!-- ==================================slick slider js link============================= -->
+ <script src="js/sceipt.js"></script>
+</body>
+</html>
