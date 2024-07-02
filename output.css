@@ -694,8 +694,8 @@ video {
   top: 100%;
 }
 
-.-z-50 {
-  z-index: -50;
+.top-48 {
+  top: 12rem;
 }
 
 .z-10 {
@@ -716,6 +716,10 @@ video {
 
 .z-\[-1\] {
   z-index: -1;
+}
+
+.-z-50 {
+  z-index: -50;
 }
 
 .-my-5 {
@@ -854,6 +858,10 @@ video {
 
 .h-\[828px\] {
   height: 828px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-\[100\%\] {
@@ -1172,7 +1180,7 @@ video {
 }
 
 .bg-bodyBg {
-  background-image: url('./Images/wave element.png)');
+  background-image: url('./Images/wave element.png');
 }
 
 .bg-image {
@@ -1610,8 +1618,18 @@ video {
   background-color: rgb(245 239 219 / var(--tw-bg-opacity));
 }
 
+.after\:bg-bodyBg::after {
+  content: var(--tw-content);
+  background-image: url('./Images/wave element.png');
+}
+
 .after\:content-\[\'\'\]::after {
   --tw-content: '';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\]::after {
+  --tw-content: ;
   content: var(--tw-content);
 }
 
@@ -1636,10 +1654,6 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\]:hover {
-  color: ;
 }
 
 .hover\:underline:hover {
