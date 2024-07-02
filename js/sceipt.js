@@ -31,3 +31,4 @@ $('.photoSlider').slick({
   nextArrow: `<i class="fa-solid fa-angle-right right"></i>`,
 })
 
+// =================================================================>>

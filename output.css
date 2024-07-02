@@ -658,6 +658,10 @@ video {
   top: 0px;
 }
 
+.top-48 {
+  top: 12rem;
+}
+
 .top-\[100\%\] {
   top: 100%;
 }
@@ -694,8 +698,8 @@ video {
   top: 100%;
 }
 
-.top-48 {
-  top: 12rem;
+.-z-10 {
+  z-index: -10;
 }
 
 .z-10 {
@@ -716,10 +720,6 @@ video {
 
 .z-\[-1\] {
   z-index: -1;
-}
-
-.-z-50 {
-  z-index: -50;
 }
 
 .-my-5 {
@@ -1618,18 +1618,8 @@ video {
   background-color: rgb(245 239 219 / var(--tw-bg-opacity));
 }
 
-.after\:bg-bodyBg::after {
-  content: var(--tw-content);
-  background-image: url('./Images/wave element.png');
-}
-
 .after\:content-\[\'\'\]::after {
   --tw-content: '';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\]::after {
-  --tw-content: ;
   content: var(--tw-content);
 }
 
